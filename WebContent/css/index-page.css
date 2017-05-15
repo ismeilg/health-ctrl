@@ -1,0 +1,98 @@
+/*
+ * Start Bootstrap - Business Frontpage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Nunito', serif;
+    direction: ltr;
+}
+
+p{
+    font-size: larger;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.business-header {
+    height: 330px;
+    background: url('') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 70%;
+    -o-background-size: cover;
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 2px #000;
+    color: crimson;
+    direction: ltr;
+    font-family: 'Suez One', serif;
+    font-size: 69px;
+    margin-right: 4%;
+    margin-top: 3%;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+hr{
+    margin-top: 0 !important;
+}
+.imgheight{
+    height: 250px;
+}
+
+.boxit{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.middle{
+    text-align: center;
+}
+
+.start-btn{
+    border-radius: 50%;
+    padding: 27% 10%;
+    margin: 3% 0 0 32%;     
+    font-weight: bold;
+    font-size: 179%;
+}
+
+.logo{
+    width: 55%;
+    height: auto;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.naturopaty{
+    display: inline-block;
+    width: 100%;
+    align-self: center;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-size: medium;
+}
+
+.welcome{
+    display: inline-block;
+}
+.welcome-img{
+    direction: ltr;
+    display: inline;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 24%;
+}

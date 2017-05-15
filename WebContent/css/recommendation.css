@@ -1,0 +1,77 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito', serif !important;
+}
+
+h1{
+    text-align: center;
+}
+
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.row {
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    font-size: 17px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.eat i{
+    color: #8bc34a;
+}
+
+.avoid i{
+    color: #f44336;
+}
+
+.guidelines li{
+    margin: 4px 0px;
+}
+
+.guidelines i{
+    color: #ffc107;
+}
+
+.plate i{
+    color: #cddc39;
+}
+
+iframe{
+    padding: 4px 0px;
+}
+
+.nav-tabs a{
+    color: black !important;
+}
+
+td{
+    font-size: 18px;
+}
+
+table li{
+    font-size: 16px;
+}
+
+thead{
+    text-align: center;
+    font-weight: bold;
+}
+.border{
+    box-sizing: border-box;
+    border-right: 1px solid rgba(211, 211, 211, 0.39);
+    padding-right: 3px;
+}
+.lead{
+    font-size: 18px !important; 
+}

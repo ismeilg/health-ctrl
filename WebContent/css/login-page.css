@@ -1,0 +1,52 @@
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Nunito', serif;
+    direction: ltr;
+}
+
+p{
+    font-size: larger;
+}
+
+#errorBox{
+    color: red;
+    font-weight: bold;
+}
+
+.panel-heading{
+    background-color: #5cb85c !important;
+    border-color: #5cb85c !important;
+    color: white !important;
+}
+
+.panel-info{
+    border-color:  #5cb85c !important;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+
+#signinlink{
+    float:right;
+    font-size: 85%;
+    position: relative;
+    top:-10px;
+    color: white;
+}
+
+.logo-img{
+    height: auto;
+    max-width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

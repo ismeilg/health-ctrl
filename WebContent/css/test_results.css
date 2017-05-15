@@ -1,0 +1,131 @@
+/*!
+ * Start Bootstrap - Thumbnail Gallery (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px;
+    font-family: 'Nunito', 'Rubik' !important;
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+    text-align: center;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Nunito', serif;
+    direction: ltr;
+}
+
+.prog_div {
+    padding: 0px;
+}
+
+.progress_bar {
+    width: 200px;
+    border-bottom: 3px solid dimgrey;
+    position: relative;
+    transform: translate(125px, -13px);
+}
+
+.line {
+    border-left: 2px solid rgb(177, 183, 177);
+    height: 20px;
+    position: absolute;
+    bottom: -11px;
+}
+
+.line.min {
+    transform: translateX(50px);
+}
+
+.line.max {
+    transform: translateX(150px);
+}
+
+.line .line_value {
+    position: absolute;
+    transform: translate(-50%, 18px);
+}
+
+.line.val {
+    border-left: 3px solid rgb(67, 152, 67);
+}
+
+.line.val .line_value {
+    transform: translate(-50%, -18px);
+    font-weight: bold;
+}
+
+.test_name {
+    display: block;
+    width: 125px;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    font-size: 18px;
+}
+
+.test_result {
+    display: block;
+    margin: 50px auto;
+}
+
+.line.val.danger {
+    border-left-color: rgb(169, 42, 14);
+}
+
+
+/*BMI*/
+
+.bmi {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.bmi-img {
+    max-height: 150px;
+    display: inline-block;
+}
+
+.your-bmi {
+    margin: 10px auto 20px 21px;
+    font-weight: bold;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.bmi-res {
+    font-weight: bold;
+    font-size: 45px;
+    display: inline-block;
+    margin-left: 17px;
+}
+
+
+/*continue-btn*/
+
+.sub-btn{
+    width: 40%;
+    display: block !important;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin: 17% auto 2% auto !important;
+}
+
+.sub-btn:hover {
+    color: #fff !important;
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}

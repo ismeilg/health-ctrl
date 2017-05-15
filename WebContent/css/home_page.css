@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito', serif !important;
+}
+
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+table {
+    font-size: 15px;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.view-btn {
+    border: 2px solid #5cb85c;
+    background: none;
+}
+
+.view {
+    color: black;
+    text-decoration: none;
+}
+
+.new-test {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.new-test:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.new-test {
+    margin: auto !important;
+    display: block;
+}
+
+
+.wrapper {
+    text-align: center;
+    display: block;
+}

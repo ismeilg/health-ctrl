@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito', serif !important;
+}
+
+body {
+    padding-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.row {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    font-size: 15px;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+.new-test {
+    width: 30%;
+    font-size: 18px !important;
+    margin: 5px 15px;
+}
+
+.delta {
+    font-size: 12px;
+}
+
+.results {
+    font-size: 16px;
+}
+
+/*BMI*/
+.bmi {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.your-bmi {
+    margin: 18px auto 20px 21px;
+/*    font-weight: bold;*/
+    font-size: 25px;
+    display: inline-block;
+}
+
+.bmi-res {
+/*    font-weight: bold;*/
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 17px;
+}

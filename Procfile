@@ -1,1 +1,2 @@
-web: sh target/bin/webapp
+web: sh target/bin/healthctrl
+web: sh target/bin/sadna-healthCtrl
